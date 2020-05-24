@@ -31,7 +31,10 @@ spring:
 server:
   port: 8002
       
-      
+spring:
+  cloud:
+    config:
+      override-none: true
       
       
       
