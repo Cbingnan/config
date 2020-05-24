@@ -2,6 +2,9 @@
 spring:
   application:
     name: item-service
+  cloud:
+    config:
+      override-none: true
 
 #设置端口号
 #server:

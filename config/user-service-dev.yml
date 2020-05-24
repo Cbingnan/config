@@ -6,6 +6,9 @@ server:
 spring:
   application:
     name: user-service
+  cloud:
+    config:
+      override-none: true
 
 #sp.user-service.users属性为自定义属性，提供用于测试的用户数据
 sp:
