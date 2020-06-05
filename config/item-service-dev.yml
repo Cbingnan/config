@@ -2,9 +2,14 @@
 spring:
   application:
     name: item-service
+  rabbitmq:
+    host: 192.168.0.6
+    port: 5672
+    username: root
+    password: root
   cloud:
     config:
-      override-none: true
+      override-none: true #覆盖项目的application.yml配置文件
 
 #设置端口号
 #server:

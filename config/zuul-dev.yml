@@ -1,6 +1,11 @@
 spring:
   application:
     name: zuul
+  rabbitmq:
+    host: 192.168.0.6
+    port: 5672
+    username: root
+    password: root
   cloud:
     config:
       override-none: true
